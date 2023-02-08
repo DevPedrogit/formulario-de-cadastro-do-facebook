@@ -8,12 +8,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: rgba(0, 0, 0, 0.0784313725);
 }
 .container00 .logo {
   width: 320px;
 }
 .container00 .form {
-  border: 1px solid red;
+  background-color: white;
 }
 .container00 .form .textsContent {
   text-align: center;
@@ -26,7 +27,12 @@
 }
 .container00 .form .textsContent .subTitle {
   font-size: 14px;
-  color: rgba(0, 0, 0, 0.614);
+  color: rgba(0, 0, 0, 0.6156862745);
+}
+.container00 .form .line {
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.3137254902);
+  margin: 15px 0;
 }
 
 /*# sourceMappingURL=style.css.map */
