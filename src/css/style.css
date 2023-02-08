@@ -1,0 +1,12 @@
+.container00 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container00 .logo {
+  width: 320px;
+}
+
+/*# sourceMappingURL=style.css.map */
