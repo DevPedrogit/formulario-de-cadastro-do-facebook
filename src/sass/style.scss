@@ -1,3 +1,7 @@
+* {
+    font-family: sans-serif;
+}
+
 .container00 {
     height: 100vh;
     display: flex;
@@ -9,5 +13,21 @@
         width: 320px;
     }
 
-    
+    .form {
+        border: 1px solid red;
+
+        .textsContent {
+            text-align: center;
+            .title {
+                font-size: 26px;
+                color: #000;
+                font-weight: 700;
+                margin-bottom: 3px;
+            }
+            .subTitle {
+                font-size: 14px;
+                color: rgba(0, 0, 0, 0.614);
+            }
+        }
+    }
 }

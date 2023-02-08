@@ -1,3 +1,7 @@
+* {
+  font-family: sans-serif;
+}
+
 .container00 {
   height: 100vh;
   display: flex;
@@ -7,6 +11,22 @@
 }
 .container00 .logo {
   width: 320px;
+}
+.container00 .form {
+  border: 1px solid red;
+}
+.container00 .form .textsContent {
+  text-align: center;
+}
+.container00 .form .textsContent .title {
+  font-size: 26px;
+  color: #000;
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+.container00 .form .textsContent .subTitle {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.614);
 }
 
 /*# sourceMappingURL=style.css.map */
