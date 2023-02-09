@@ -55,5 +55,19 @@
 .container00 .form .section .inputsContent .inputPassword .input {
   width: 100%;
 }
+.container00 .form .section .selectDate p {
+  font-size: 12px;
+  color: #606770;
+  margin-bottom: 5px;
+}
+.container00 .form .section .selectDate select {
+  border: 1px solid rgba(0, 0, 0, 0.3137254902);
+  border-radius: 5px;
+  outline: none;
+  padding-left: 5px;
+  height: 36px;
+  width: 30%;
+  background-color: transparent;
+}
 
 /*# sourceMappingURL=style.css.map */
