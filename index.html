@@ -19,54 +19,56 @@
                 <p class="subTitle">É rápido e fácil.</p>
             </div>
             <div class="line"></div>
-            <div class="inputsContent">
-                <div class="inputName">
-                    <input type="text" class="input" placeholder="Nome">
-                    <input type="text" class="input" placeholder="Sobrenome">
+            <section class="section">
+                <div class="inputsContent">
+                    <div class="inputName">
+                        <input type="text" class="input me-2" placeholder="Nome">
+                        <input type="text" class="input" placeholder="Sobrenome">
+                    </div>
+                    <div class="inputEmail">
+                        <input type="email" class="input" placeholder="Celular ou email">
+                    </div>
+                    <div class="inputPassword">
+                        <input type="password" class="input" placeholder="Nova senha">
+                    </div>
                 </div>
-                <div class="inputEmail">
-                    <input type="email" class="input" placeholder="Celular ou email">
+                <div class="selectDate">
+                    <p>Data de nascimento</p>
+                    <select name="day" id="day" class="daySelect">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                    </select>
+                    <select name="month" id="month" class="monthSelect">
+                        <option value="Janeiro">Janeiro</option>
+                        <option value="Fevereiro">Fevereiro</option>
+                    </select>
+                    <select name="year" id="year" class="yearSelect">
+                        <option value="2022">2022</option>
+                        <option value="2023">2023</option>
+                    </select>
                 </div>
-                <div class="inputPassword">
-                    <input type="password" class="input" placeholder="Nova senha">
+                <div class="selectGender">
+                    <p>Gênero</p>
+                    <div class="gender">
+                        <label for="masculino">Masculino</label>
+                        <input type="radio" class="masculino" id="masculino">
+                    </div>
+                    <div class="gender">
+                        <label for="feminino">Feminino</label>
+                        <input type="radio" class="feminino" id="feminino">
+                    </div>
+                    <div class="gender">
+                        <label for="personalizado">Personalizado</label>
+                        <input type="radio" class="personalizado" id="personalizado">
+                    </div>
                 </div>
-            </div>
-            <div class="selectDate">
-                <p>Data de nascimento</p>
-                <select name="day" id="day" class="daySelect">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                </select>
-                <select name="month" id="month" class="monthSelect">
-                    <option value="Janeiro">Janeiro</option>
-                    <option value="Fevereiro">Fevereiro</option>
-                </select>
-                <select name="year" id="year" class="yearSelect">
-                    <option value="2022">2022</option>
-                    <option value="2023">2023</option>
-                </select>
-            </div>
-            <div class="selectGender">
-                <p>Gênero</p>
-                <div class="gender">
-                    <label for="masculino">Masculino</label>
-                    <input type="radio" class="masculino" id="masculino">
+                <div class="btnContent">
+                    <button class="btn00">Cadastre-se</button>
                 </div>
-                <div class="gender">
-                    <label for="feminino">Feminino</label>
-                    <input type="radio" class="feminino" id="feminino">
-                </div>
-                <div class="gender">
-                    <label for="personalizado">Personalizado</label>
-                    <input type="radio" class="personalizado" id="personalizado">
-                </div>
-            </div>
-            <div class="btnContent">
-                <button class="btn00">Cadastre-se</button>
-            </div>
-            <p class="login">
-                <a href="#">Já tem uma conta?</a>
-            </p>
+                <p class="login">
+                    <a href="#">Já tem uma conta?</a>
+                </p>
+            </section>
         </form>
     </div>
 

@@ -34,5 +34,26 @@
   background-color: rgba(0, 0, 0, 0.3137254902);
   margin: 15px 0;
 }
+.container00 .form .section {
+  padding: 0 20px;
+}
+.container00 .form .section .inputsContent .input {
+  border: 1px solid rgba(0, 0, 0, 0.3137254902);
+  border-radius: 5px;
+  outline: none;
+  padding-left: 10px;
+  height: 40px;
+}
+.container00 .form .section .inputsContent .inputName {
+  margin-bottom: 12px;
+}
+.container00 .form .section .inputsContent .inputEmail,
+.container00 .form .section .inputsContent .inputPassword {
+  margin-bottom: 12px;
+}
+.container00 .form .section .inputsContent .inputEmail .input,
+.container00 .form .section .inputsContent .inputPassword .input {
+  width: 100%;
+}
 
 /*# sourceMappingURL=style.css.map */
