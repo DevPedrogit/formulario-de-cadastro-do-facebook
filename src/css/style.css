@@ -15,6 +15,9 @@
 }
 .container00 .form {
   background-color: white;
+  padding: 22px 0;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .container00 .form .textsContent {
   text-align: center;
@@ -68,6 +71,52 @@
   height: 36px;
   width: 30%;
   background-color: transparent;
+  margin-bottom: 12px;
+}
+.container00 .form .section .selectGender p {
+  font-size: 12px;
+  color: #606770;
+  margin-bottom: 5px;
+}
+.container00 .form .section .selectGender .genderContent {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 30px;
+}
+.container00 .form .section .selectGender .genderContent .gender {
+  border: 1px solid rgba(0, 0, 0, 0.3137254902);
+  border-radius: 5px;
+  outline: none;
+  height: 36px;
+  padding: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.container00 .form .section .selectGender .genderContent .gender label {
+  font-size: 14px;
+}
+.container00 .form .section .btnContent {
+  text-align: center;
+  margin-bottom: 16px;
+}
+.container00 .form .section .btnContent .btn00 {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 5px 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #00a400;
+  color: #fff;
+}
+.container00 .form .section .login {
+  text-align: center;
+  margin: 0;
+}
+.container00 .form .section .login a {
+  font-size: 16px;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
